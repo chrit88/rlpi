@@ -53,9 +53,9 @@ CalcLPI(Species, ID, Year, Popvalue, InitialYear, FinalYear, DatasetName,
 
 \item{OFFSET_DIFF=FALSE}{# Offset time-series with 0 values adding 1% of mean if max value in time-series<1 and 1 if max>=1}
 }
-\value{
-Returns the species lambda array for the input species
-}
+
+\value{Returns the species lambda array for the input species}
+
 \description{
 CalcLPI - Main funciton for calculating species lamdbas (interannual changes). Input data is a series
 of 4-value rows: (Species, ID, Year, Popvalue). This function will model the species populations over time
